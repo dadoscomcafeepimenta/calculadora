@@ -12,13 +12,13 @@ O pacote calculadora é utilizado para:
 Use o gerenciador de pacotes [pip](https://pip.pypa.io/en/stable/) para instalar a calculadora
 
 ```bash
-pip install calculadora
+pip install calculadora_test_package
 ```
 
 ## Como utilizar
 
 ```python
-from calculadora import operacoes_basicas
+from calculadora_test_package import operacoes_basicas
 
 operacoes_basicas.somar(1, 2)
 operacoes_basicas.subtrair(1, 2)
